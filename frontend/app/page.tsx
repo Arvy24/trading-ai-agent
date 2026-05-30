@@ -1,10 +1,8 @@
-export default function DashboardPage() {
+export default function Home() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold">Dashboard</h1>
-      <p className="mt-4 text-gray-600">
-        Welcome to your Trading AI Dashboard.
-      </p>
+    <div className="p-10 text-xl">
+      <h1>ARVY Trading AI Agent</h1>
+      <p>Dashboard is ready. Use the sidebar to navigate.</p>
     </div>
-  );
+  )
 }
