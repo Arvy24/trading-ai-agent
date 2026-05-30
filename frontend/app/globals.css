@@ -1,6 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Load Tailwind 4 */
+@import "tailwindcss";
 
 /* Light mode */
 :root {
@@ -23,7 +22,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Custom classes */
+/* Custom classes using Tailwind @apply */
 .nav-link {
   @apply px-3 py-2 rounded-md text-gray-700 hover:bg-gray-100 hover:text-black font-medium;
 }
